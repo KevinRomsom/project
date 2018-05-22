@@ -1,0 +1,48 @@
+﻿.loginbox {
+    background-color: #6FE5F7;
+    border-radius: 10px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: #B0FAFE;
+    border-color: #E7E7E7;
+}
+    /* Title */
+    .navbar-default .navbar-brand {
+        color: #777;
+    }
+
+        .navbar-default .navbar-brand:hover,
+        .navbar-default .navbar-brand:focus {
+            color: #5E5E5E;
+        }
+    /* Link */
+    .navbar-default .navbar-nav > li > a {
+        color: #777;
+    }
+
+        .navbar-default .navbar-nav > li > a:hover,
+        .navbar-default .navbar-nav > li > a:focus {
+            color: #333;
+        }
+
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        color: #555;
+        background-color: #89D6DA;
+    }
+
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
+    .navbar-default .navbar-nav > .open > a:focus {
+        color: #555;
+        background-color: #4AF2FB;
+    }
+    /* Caret */
+    .navbar-default .navbar-nav > .dropdown > a .caret {
+        border-top-color: #777;
+        border-bottom-color: #777;
