@@ -3,8 +3,17 @@
 }
 
 <div class="container-fluid">
-    
+   
+    <!--voor de cards van de webshop-->
+    @*
+    <div class="row">
+        @for (int i = 0; i < array.Count; i++)
+        {
+            @Html.Raw("<div class='col-sm-4'></div>")
+        }
 
+    </div>
+        *@
      <!-- dit is voor de producten
             -->
      <!-- Trigger the modal with a button -->

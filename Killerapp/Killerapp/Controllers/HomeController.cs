@@ -27,6 +27,16 @@ namespace Killerapp.Controllers
         {
             return View();
         }
-        
+
+        public ActionResult Winkelwagen()
+        {
+            return View();
+        }
+
+        public ActionResult FilterPagina()
+        {
+            return View();
+        }
+
     }
 }

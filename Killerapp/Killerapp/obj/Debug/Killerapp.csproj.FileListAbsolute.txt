@@ -88,3 +88,5 @@ D:\FHICT\Semester 2\Killer app\project\Killerapp\Killerapp\obj\Debug\Killerapp.c
 D:\FHICT\Semester 2\Killer app\project\Killerapp\Killerapp\obj\Debug\Killerapp.csproj.CoreCompileInputs.cache
 D:\FHICT\Semester 2\Killer app\project\Killerapp\Killerapp\obj\Debug\Killerapp.dll
 D:\FHICT\Semester 2\Killer app\project\Killerapp\Killerapp\obj\Debug\Killerapp.pdb
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Killerapp\bin\Models.dll
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Killerapp\bin\Models.pdb

@@ -1,0 +1,5 @@
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Models\bin\Debug\Models.dll
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Models\bin\Debug\Models.pdb
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Models\obj\Debug\Models.dll
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Models\obj\Debug\Models.pdb
