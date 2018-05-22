@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Killerapp", "Killerapp\Killerapp.csproj", "{033EFC26-0E88-444A-AF73-37E63E846742}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{F0ED631A-1A37-4673-A137-8A4D12BF4BD2}"
+	ProjectSection(SolutionItems) = preProject
+		Killerapp\Images\bacslider.png = Killerapp\Images\bacslider.png
+		Killerapp\Images\loginbg.jpg = Killerapp\Images\loginbg.jpg
+		Killerapp\Images\whislider.jpg = Killerapp\Images\whislider.jpg
+		Killerapp\Images\whisrockslider.jpg = Killerapp\Images\whisrockslider.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
