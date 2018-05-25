@@ -90,3 +90,7 @@ D:\FHICT\Semester 2\Killer app\project\Killerapp\Killerapp\obj\Debug\Killerapp.d
 D:\FHICT\Semester 2\Killer app\project\Killerapp\Killerapp\obj\Debug\Killerapp.pdb
 D:\FHICT\Semester 2\Killer app\project\Killerapp\Killerapp\bin\Models.dll
 D:\FHICT\Semester 2\Killer app\project\Killerapp\Killerapp\bin\Models.pdb
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Killerapp\bin\Logic.dll
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Killerapp\bin\DAL.dll
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Killerapp\bin\Logic.pdb
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Killerapp\bin\DAL.pdb

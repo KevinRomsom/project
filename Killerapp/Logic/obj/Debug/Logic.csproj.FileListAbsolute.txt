@@ -1,0 +1,10 @@
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Logic\bin\Debug\Logic.dll
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Logic\bin\Debug\Logic.pdb
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Logic\bin\Debug\DAL.dll
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Logic\bin\Debug\Models.dll
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Logic\bin\Debug\DAL.pdb
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Logic\bin\Debug\Models.pdb
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Logic\obj\Debug\Logic.dll
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Logic\obj\Debug\Logic.pdb

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Logic;
+using Models;
 
 namespace Killerapp.Controllers
 {
@@ -22,17 +24,23 @@ namespace Killerapp.Controllers
         [HttpPost]
         public ActionResult Login(FormCollection collection)
         {
-            try
-            {
+            
                 ViewData["Email"] = collection[1];
                 ViewData["Password"] = collection[2];
 
-                return View("Index");
-            }
-            catch
+            User user = new User(collection[1], collection[2]);
+
+            LoginLogic logic = new LoginLogic();
+
+            if (logic.checkLogin(user))
             {
-                return View();
+                return RedirectToAction("Index", "Home");
             }
+
+            return RedirectToAction("Login", "Login");
+
         }
+
+        
     }
 }

@@ -19,5 +19,11 @@ namespace Models
         [DataType(DataType.Password)]
         [MinLength(6, ErrorMessage = "Wachtwoord moet minimaal uit 6 karakter bestaan !")]
         public string Password { get; set; }
+
+        public User(string email, string password)
+        {
+            this.Email = email;
+            this.Password = password;
+        }
     }
 }
