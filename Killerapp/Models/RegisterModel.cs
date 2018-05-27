@@ -21,7 +21,7 @@ namespace Models
         [MaxLength(20, ErrorMessage = "Wachtwoord moet maximaal uit 20 karakters bestaan!")]
         public string Password { get; set; }
 
-        [Display(Name = "Herhaal wachtwoord")]
+        [Display(Name = "WachtwoordRepeat")]
         [Required(AllowEmptyStrings = false, ErrorMessage = "Wachtwoord is verplicht")]
         [DataType(DataType.Password)]
         public string PasswordRepeat { get; set; }
