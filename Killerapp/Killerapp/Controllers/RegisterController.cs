@@ -32,7 +32,15 @@ namespace Killerapp.Controllers
 
             Register register = new Register();
 
-            return RedirectToAction("Login", "Login");
+            RegisterLogic reglogic = new RegisterLogic();
+
+            if(reglogic.checkPassword(collection[1], collection[2]) == true)
+            {
+                reglogic.insertRegisterInfo(register);
+                return RedirectToAction("Login", "Login");
+            }
+
+            return RedirectToAction("Register", "Register");
         }
     }
 }
