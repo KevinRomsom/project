@@ -20,5 +20,19 @@ namespace Killerapp.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public ActionResult Register(FormCollection collection)
+        {
+            ViewData["Email"] = collection[1];
+            ViewData["Password"] = collection[2];
+            ViewData["PasswordRepeat"] = collection[3];
+            ViewData["Voornaam"] = collection[4];
+            ViewData["Achternaam"] = collection[5];
+
+            Register register = new Register();
+
+            return RedirectToAction("Login", "Login");
+        }
     }
 }

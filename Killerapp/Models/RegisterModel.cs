@@ -17,13 +17,13 @@ namespace Models
         [Display(Name = "Wachtwoord")]
         [Required(AllowEmptyStrings = false, ErrorMessage = "Wachtwoord is verplicht")]
         [DataType(DataType.Password)]
-        [MinLength(6, ErrorMessage = "Wachtwoord moet minimaal uit 6 karakter bestaan !")]
+        [MinLength(6, ErrorMessage = "Wachtwoord moet minimaal uit 6 karakters bestaan!")]
+        [MaxLength(20, ErrorMessage = "Wachtwoord moet maximaal uit 20 karakters bestaan!")]
         public string Password { get; set; }
 
         [Display(Name = "Herhaal wachtwoord")]
         [Required(AllowEmptyStrings = false, ErrorMessage = "Wachtwoord is verplicht")]
         [DataType(DataType.Password)]
-        [MinLength(6, ErrorMessage = "Wachtwoord moet minimaal uit 6 karakter bestaan !")]
         public string PasswordRepeat { get; set; }
 
         [Display(Name = "Voornaam")]
