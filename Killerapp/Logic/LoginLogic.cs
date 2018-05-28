@@ -24,6 +24,7 @@ namespace Logic
 
         public bool checkLogin(User u)
         {
+            //Hoofdletters opletten
             bool result = false;
             dallogin = new DBLogin();
             uimail = u.Email;

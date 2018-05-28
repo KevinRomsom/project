@@ -24,7 +24,7 @@ namespace Killerapp.Controllers
         [HttpPost]
         public ActionResult Login(FormCollection collection)
         {
-            
+            //html <input type="example" gebruiken ipv het huidige
                 ViewData["Email"] = collection[1];
                 ViewData["Password"] = collection[2];
 
