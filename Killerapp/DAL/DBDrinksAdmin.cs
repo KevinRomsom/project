@@ -29,12 +29,12 @@ namespace DAL
         }
 
         public void InsertDrinks(string naam, string merk, string soort, string categorie, 
-        string beschrijving, double prijs, double korting, string imagelink)
+        string beschrijving, double prijs, string imagelink)
         {
             openConnection();
 
-            string sql = "INSERT Product(categorie, merk, soort, naam, beschrijving, prijs, korting, foto" +
-                "VALUES(@categorie, @merk, @soort, @naam, @beschrijving, @prijs, @korting, @foto)";
+            string sql = "INSERT Product(categorie, merk, soort, naam, beschrijving, prijs, foto" +
+                "VALUES(@categorie, @merk, @soort, @naam, @beschrijving, @prijs, @foto)";
             SqlCommand sqlcmd = new SqlCommand(sql, conn);
             sqlcmd.Parameters.AddWithValue("@categorie", categorie);
             sqlcmd.Parameters.AddWithValue("@merk", merk);
@@ -42,9 +42,10 @@ namespace DAL
             sqlcmd.Parameters.AddWithValue("@naam", naam);
             sqlcmd.Parameters.AddWithValue("@beschrijving", beschrijving);
             sqlcmd.Parameters.AddWithValue("@prijs", prijs);
-            sqlcmd.Parameters.AddWithValue("@korting", korting);
             sqlcmd.Parameters.AddWithValue("@foto", imagelink);
             sqlcmd.ExecuteNonQuery();
+
+            conn.Close();
         }
     }
 }
