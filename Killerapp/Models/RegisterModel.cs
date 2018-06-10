@@ -35,5 +35,14 @@ namespace Models
         [Required(AllowEmptyStrings = false, ErrorMessage = "Achternaam is verplicht")]
         [DataType(DataType.Text)]
         public string Achternaam { get; set; }
+
+        public Register(string email, string password, string passwordrepeat, string voornaam, string achternaam)
+        {
+            this.Email = email;
+            this.Password = password;
+            this.PasswordRepeat = passwordrepeat;
+            this.Voornaam = voornaam;
+            this.Achternaam = achternaam;
+        }
     }
 }

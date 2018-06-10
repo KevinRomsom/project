@@ -31,7 +31,8 @@ namespace DAL
         {
             openConnection();
 
-            string sql = "INSERT Account(email, password, voornaam, achternaam) VALUES(@email, @password, @voornaam, @achternaam)";
+            string sql = "INSERT Account(email, password, voornaam, achternaam)" +
+                " VALUES(@email, @password, @voornaam, @achternaam)";
             SqlCommand sqlcmd = new SqlCommand(sql, conn);
             sqlcmd.Parameters.AddWithValue("@email", email);
             sqlcmd.Parameters.AddWithValue("@password", password);

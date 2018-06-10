@@ -27,11 +27,11 @@ namespace Logic
 
         }
 
-        public bool checkPassword(string password, string passwordrepeat)
+        public bool checkPassword(Register reg)
         {
             bool same = false;
 
-            if(password == passwordrepeat)
+            if(reg.Password == reg.PasswordRepeat)
             {
                 same = true;
             }

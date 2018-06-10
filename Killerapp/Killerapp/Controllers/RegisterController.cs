@@ -24,17 +24,17 @@ namespace Killerapp.Controllers
         [HttpPost]
         public ActionResult Register(FormCollection collection)
         {
-            ViewData["Email"] = collection[1];
-            ViewData["Password"] = collection[2];
-            ViewData["PasswordRepeat"] = collection[3];
-            ViewData["Voornaam"] = collection[4];
-            ViewData["Achternaam"] = collection[5];
+            ViewData["Email"] = collection["Email"];
+            ViewData["Password"] = collection["Password"];
+            ViewData["PasswordRepeat"] = collection["PasswordRepeat"];
+            ViewData["Voornaam"] = collection["Voornaam"];
+            ViewData["Achternaam"] = collection["Achternaam"];
 
-            Register register = new Register();
+            Register register = new Register(collection["Email"], collection["Password"], collection["PasswordRepeat"], collection["Voornaam"], collection["Achternaam"]);
 
             RegisterLogic reglogic = new RegisterLogic();
 
-            if(reglogic.checkPassword(collection[2], collection[3]) == true)
+            if(reglogic.checkPassword(register) == true)
             {
                 reglogic.insertRegisterInfo(register);
                 return RedirectToAction("Login", "Login");
