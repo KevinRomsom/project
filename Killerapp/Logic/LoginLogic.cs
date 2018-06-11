@@ -10,7 +10,7 @@ namespace Logic
 {
     public class LoginLogic
     {
-        DBLogin dallogin;
+        DBLogin dallogin = new DBLogin();
         
         string dalmail = "";
         string dalpwd = "";
@@ -26,7 +26,6 @@ namespace Logic
         {
             //Hoofdletters opletten
             bool result = false;
-            dallogin = new DBLogin();
             uimail = u.Email;
             uipwd = u.Password;
             dalmail = dallogin.getEmail(uimail);
@@ -37,6 +36,20 @@ namespace Logic
             }
 
             return result;
+        }
+
+        public bool checkAdmin()
+        {
+            bool admin = false;
+            string daladminstring = dallogin.getAdmin(uimail);
+
+            if(daladminstring != "false" && daladminstring != "False")
+            {
+                admin = true;
+            }
+
+            return admin;
+
         }
 
 

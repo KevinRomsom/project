@@ -28,12 +28,14 @@ namespace Killerapp.Controllers
                 ViewData["Email"] = collection[1];
                 ViewData["Password"] = collection[2];
 
+
             User user = new User(collection[1], collection[2]);
 
             LoginLogic logic = new LoginLogic();
 
             if (logic.checkLogin(user))
             {
+                Session["login"] = logic.checkAdmin().ToString();
                 return RedirectToAction("Index", "Home");
             }
 

@@ -27,6 +27,7 @@ namespace DAL
             return result;
         }
 
+        
         public string getEmail(string uimail)
         {
             openConnection();
@@ -74,6 +75,30 @@ namespace DAL
             conn.Close();
 
             return password;
+        }
+
+        public string getAdmin(string uimail)
+        {
+            openConnection();
+            string adminquery = "SELECT admin FROM Account WHERE email=@uimail";
+            SqlCommand sqlcmd = new SqlCommand(adminquery, conn);
+            sqlcmd.Parameters.AddWithValue("@uimail", uimail);
+
+            string adminstring = "";
+            using (sqlcmd)
+            {
+                using (var reader = sqlcmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        adminstring = reader[0].ToString();
+                    }
+
+                }
+            }
+
+            conn.Close();
+            return adminstring;
         }
 
     }
