@@ -1,0 +1,6 @@
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Models\bin\Release\Models.dll
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Models\bin\Release\Models.pdb
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Models\obj\Release\Models.csprojResolveAssemblyReference.cache
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Models\obj\Release\Models.csproj.CoreCompileInputs.cache
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Models\obj\Release\Models.dll
+D:\FHICT\Semester 2\Killer app\project\Killerapp\Models\obj\Release\Models.pdb

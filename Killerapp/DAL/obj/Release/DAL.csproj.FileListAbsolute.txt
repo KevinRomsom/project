@@ -1,0 +1,6 @@
+D:\FHICT\Semester 2\Killer app\project\Killerapp\DAL\bin\Release\DAL.dll
+D:\FHICT\Semester 2\Killer app\project\Killerapp\DAL\bin\Release\DAL.pdb
+D:\FHICT\Semester 2\Killer app\project\Killerapp\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+D:\FHICT\Semester 2\Killer app\project\Killerapp\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+D:\FHICT\Semester 2\Killer app\project\Killerapp\DAL\obj\Release\DAL.dll
+D:\FHICT\Semester 2\Killer app\project\Killerapp\DAL\obj\Release\DAL.pdb
