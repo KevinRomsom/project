@@ -8,10 +8,9 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class DBDrinksAdmin
+    public class DBDrinksAdmin : ConnectionStr
     {
-        const string _csConnectionString = @"Server=mssql.fhict.local;Database=dbi392873;User Id=dbi392873;Password=killerapp;";
-        SqlConnection conn = new SqlConnection(_csConnectionString);
+        SqlConnection conn = new SqlConnection(connectionstring);
 
         private bool openConnection()
         {

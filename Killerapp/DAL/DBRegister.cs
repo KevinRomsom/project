@@ -7,10 +7,9 @@ using System.Web;
 
 namespace DAL
 {
-    public class DBRegister
+    public class DBRegister : ConnectionStr
     {
-        const string _csConnectionString = @"Server=mssql.fhict.local;Database=dbi392873;User Id=dbi392873;Password=killerapp;";
-        SqlConnection conn = new SqlConnection(_csConnectionString);
+        SqlConnection conn = new SqlConnection(connectionstring);
 
         private bool openConnection()
         {
