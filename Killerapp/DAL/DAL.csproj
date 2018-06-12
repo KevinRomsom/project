@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="ConnectionStr.cs" />
     <Compile Include="DBDrinksAdmin.cs" />
+    <Compile Include="DBDrinksIndex.cs" />
     <Compile Include="DBLogin.cs" />
     <Compile Include="DBRegister.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
